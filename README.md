@@ -1,1 +1,9 @@
-https://www.gamingbible.com/news/legend-of-zelda-free-unreal-engine-remake-download-720939-20231030
+
+[filter "lfs"]
+        process = git-lfs filter-process
+        required = true
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+[user]
+        name = Rudeboyduke
+        email = 148394670+Rudeboyduke@users.noreply.github.com
